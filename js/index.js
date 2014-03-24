@@ -57,7 +57,7 @@ var app = {
         //parentElement.querySelector('.listening').innerText = 'Tacos';
         alert(navigator.notification);
         var title = 'Title';
-        var message = 'This message is not about tacos';
+        var message = 'This message is not about tacos uploaded';
         if (navigator.notification) {
             alert('TacosNF');
             navigator.notification.alert(message, null, title, 'OK');
