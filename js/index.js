@@ -1,11 +1,11 @@
 'use strict';
 
 angular.module('presentation', [
-    'ngTouch',
-    'ngRoute',
-    'ngAnimate',
-    'presentation.controllers'
-    //'presentation.memoryServices'
+    //'ngTouch',
+    //'ngRoute',
+    //'ngAnimate',
+    'presentation.controllers',
+    'presentation.phonegapDirectives'
 ]);
 
 angular.module('presentation.controllers', [])
