@@ -29,8 +29,7 @@ angular.module('presentation.phonegapDirectives', [])
             require: 'ngModel',
             link: function(scope, elm, attrs, ctrl) {
                 elm.on('click', function () {
-                    alert(navigator);
-                    alert(navigator.camera);
+
                     navigator.camera.getPicture(
                         function(imageURI) {
                             scope.$apply(function() {
